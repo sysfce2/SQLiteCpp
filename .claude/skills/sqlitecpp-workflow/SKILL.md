@@ -65,6 +65,10 @@ add source, test, or documentation commits after it, reorder the branch before p
   restating the diff, no marketing. ASCII only, no em dashes; run it through `humanizer` if unsure.
 
 ## Git commits and pushing
+- Use a clean, short imperative headline, aiming for about 50 characters.
+- Nearly always add a short body after a blank line, wrapped at about 72 characters, explaining the reason,
+  rationale, or details of the issue fixed. Describe the trigger and consequence when helpful; do not merely
+  repeat the headline or list the diff. Omit the body only for a truly self-explanatory change.
 - Make commits **atomic and independent**. Each commit must have exactly one purpose and be reviewable
   on its own. Include only the implementation, tests, and documentation required for that purpose.
 - Do not mix distinct bug fixes, API additions, refactoring, formatting, workflow changes, or other

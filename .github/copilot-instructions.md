@@ -46,7 +46,10 @@
 **If user only requests a branch:** create it and stop (no file changes).
 
 **Commits:**
-- Imperative mood, ~50 char first line, body wrapped at 72 chars.
+- Use a clean, short imperative headline, aiming for about 50 characters.
+- Nearly always add a short body after a blank line, wrapped at about 72 characters, explaining the reason,
+  rationale, or details of the issue fixed. Describe the trigger and consequence when helpful; do not merely
+  repeat the headline or list the diff. Omit the body only for a truly self-explanatory change.
 - Reference issue: `Closes #123` or `Fixes #123`.
 
 ```bash
